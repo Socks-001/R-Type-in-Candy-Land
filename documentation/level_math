@@ -1,0 +1,7 @@
+60fps
+stage ~44 seconds to 2min 30 seconds about 
+100 seconds for stage 1 at constant scroll
+
+100seconds * 60frames a second = 6000 frames for level 1 
+every other frame marks .5 pixel movement so 3000 frames or movement 
+3000 pixels traveled / 256 (screen width) = ~23 screens  for level 1 
