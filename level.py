@@ -348,7 +348,7 @@ class Level:
 			
 			#Debug 
 			#debug = True
-			if self.debug == True:
+			if self.debug == False:
 				print ("true") 
 			# draw enemy hitbox 
 				for enemy in self.enemy_sprites:
