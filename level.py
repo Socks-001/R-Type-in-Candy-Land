@@ -300,7 +300,7 @@ class Level:
 				sprite_group.draw(self.display_surface)
 			self.ui.display(self.player)
 			self.display_surface.blit(self.black_box, self.black_box_rect.topleft)
-			pygame.draw.rect(self.display_surface,'grey')
+			pygame.draw.rect(self.display_surface,'grey',self.)
 			
 			#pygame.mixer.music.pause()
 
