@@ -17,6 +17,7 @@ from level import Level
 # '7' Toggles "debug" boxes on rects and hitboxes for enemy, shots, and player 
 # You can change between "lvl 0" and "lvl 1" by changgin level_counter in level.py to 0 or 1 
 # currently 8 direction, you can change to forward and back oor just straight through weapon.py move() 
+#test
 
 class Game:                       
 	def __init__(self):                         
