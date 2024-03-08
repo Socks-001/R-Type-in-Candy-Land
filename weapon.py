@@ -53,7 +53,7 @@ class Weapon(pygame.sprite.Sprite):
 
 
 		self.hitbox.x += self.direction.x  * velocity
-		self.hitbox.y += (self.direction.y * 0.5)  * velocity
+		#self.hitbox.y += (self.direction.y * 0.5)  * velocity
 		self.rect.center = self.hitbox.center
 
 	def check_collision(self):

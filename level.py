@@ -14,7 +14,7 @@ class Level:
 	def __init__(self):
 
 		#Debug Switch 
-		self.debug = True 
+		self.debug = False 
 
 		# timer for player
 		self.player_check_timer = 60
@@ -162,7 +162,7 @@ class Level:
 						if style == 'enemies': 
 							if col == '19' : monster_name = 'screaming skull'
 							elif col == '20': monster_name = 'remote'
-							elif col == '21' : monster_name = 'eggplant'
+							elif col == '21' : monster_name = 'guard_fish'
 
 							Enemy(monster_name, 
 		  							(x,y),
@@ -300,6 +300,8 @@ class Level:
 				sprite_group.draw(self.display_surface)
 			self.ui.display(self.player)
 			self.display_surface.blit(self.black_box, self.black_box_rect.topleft)
+			# Help trying to blur
+			#pygame.transform.box_blur(self.display_surface,50)
 			#pygame.draw.rect(self.display_surface,(156,156,156,156), (200,200, SCREEN_WIDTH, SCREEN_HEIGHT))
 			
 			#pygame.mixer.music.pause()
@@ -348,7 +350,7 @@ class Level:
 			
 			#Debug 
 			#debug = True
-			if self.debug == False:
+			if self.debug == True:
 				print ("true") 
 			# draw enemy hitbox 
 				for enemy in self.enemy_sprites:

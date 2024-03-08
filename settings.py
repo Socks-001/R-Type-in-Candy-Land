@@ -46,6 +46,6 @@ item_data = {
 # enemy
 enemy_data = {
     'screaming skull' : {'health' : 8, 'exp' : 2, 'damage' : 0.5, 'attack_type' : 'contact', 'attack_sound' : None, 'speed' : 2, 'resistance' : 5, 'attack_radius' : 60, 'notice_radius': 100, 'action_type' : 'melee'},
-    'eggplant' : {'health' :6, 'exp' : 10, 'damage' : 5, 'attack_type' : 'contact', 'attack_sound' : None, 'speed' : 1.5, 'resistance' : 10, 'attack_radius' : 60, 'notice_radius': 100, 'action_type' : 'zone'},
+    'guard_fish' : {'health' :6, 'exp' : 10, 'damage' : 5, 'attack_type' : 'contact', 'attack_sound' : None, 'speed' : 1.5, 'resistance' : 10, 'attack_radius' : 60, 'notice_radius': 100, 'action_type' : 'zone'},
     'remote' : {'health' :10, 'exp' : 5, 'damage' : 1, 'attack_type' : 'contact', 'attack_sound' : None, 'speed' : 1, 'resistance' : 5, 'attack_radius' : 60, 'notice_radius': 60, 'action_type' : 'turret'}
     	}
