@@ -24,7 +24,7 @@ class Game:
 
 		#General Setup
 		pygame.init()
-		pygame.display.set_caption('The Chefs Sandwitch')
+		pygame.display.set_caption('Bullets and Flying')
 		self.flags = pygame.SCALED
 		self.screen = pygame.display.set_mode((SCREEN_WIDTH,SCREEN_HEIGHT),self.flags)
 		self.clock = pygame.time.Clock()
